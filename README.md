@@ -14,3 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+[![Geometryolife's GitHub stats](https://github-readme-stats.vercel.app/api?username=geometryolife&show_icons=true&theme=dracula)](https://github.com/geometryolife)
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=geometryolife&theme=onedark)](https://github.com/geometryolife)
