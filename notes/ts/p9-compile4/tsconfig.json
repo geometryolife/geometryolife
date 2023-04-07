@@ -1,0 +1,25 @@
+{
+  "include": [
+    "./src/**/*"
+  ],
+  // "exclude": [
+  //   "./src/hello/**/*"
+  // ]
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "es2015",
+    // "lib": [],
+    "outDir": "./dist",
+    // "outFile": "./dist/app.js",
+    "strict": true,
+    "allowJs": true,
+    "checkJs": true,
+    "removeComments": true,
+    "noEmit": false,
+    "noEmitOnError": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+  }
+}

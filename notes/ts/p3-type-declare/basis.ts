@@ -19,8 +19,16 @@ c = true;
 let d = false;
 
 // JS 函数不考虑参数类型和个数
-function sum(a, b) {
+// function sum(a, b) {
+//   return a + b;
+// }
+
+// // console.log(sum(123, 456)); // 579
+// console.log(sum(123, "456")); // "123456"
+
+function sum(a: number, b: number): number {
   return a + b;
 }
 
-console.log(sum(123, 456)); // 579
+// sum(123, "456");
+let result = sum(123, 456);
