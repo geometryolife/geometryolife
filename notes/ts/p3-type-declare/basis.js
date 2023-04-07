@@ -13,7 +13,13 @@ c = true;
 // c = 123;
 var d = false;
 // JS 函数不考虑参数类型和个数
+// function sum(a, b) {
+//   return a + b;
+// }
+// // console.log(sum(123, 456)); // 579
+// console.log(sum(123, "456")); // "123456"
 function sum(a, b) {
     return a + b;
 }
-console.log(sum(123, 456)); // 579
+// sum(123, "456");
+var result = sum(123, 456);
