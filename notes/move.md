@@ -1,5 +1,12 @@
 - `std::bcs` 将 Move 的值转换为 BCS（二进制规范序列化）中二进制的表示形式，没有提供反序列化的能力，需要通过扩展库 `moveos_std::bcs`
   - `to_bytes` 传入 Move 值，返回 BCS 格式的二进制值
+- `std::vector` 可以容纳任何类型的可变大小容器。索引是从 0 开始的，并且向量是可以增长的。
+  - `empty` 返回空向量
+  - `singleton` 返回一个大小为 1 且包含元素“e”的向量。
+- `std::option` 该模块定义了 Option 类型及其方法来表示和处理可选值。
+  - `struct Option<Element> has copy, drop, store` 字段是 `vec: vector<Element>` 一个泛型向量
+  - `some` 传递一个元素，调用了 `vector::singleton`，并将这个单元向量用 Option 包裹起来，返回的就是一个 Option 的结构体
+  - `none` 返回一个空的 Option 结构体，字段是空向量，通过包装的 `std::vector::empty` 获取
 
 
 --------------------------------------------------------------------------------
